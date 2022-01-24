@@ -40,6 +40,7 @@ export default function Droppable(props: Props) {
     ignoreContainerClipping,
     isDropDisabled,
     isCombineEnabled,
+    scrollContainer,
     // map props
     snapshot,
     useClone,
@@ -87,6 +88,7 @@ export default function Droppable(props: Props) {
     isCombineEnabled,
     ignoreContainerClipping,
     getDroppableRef,
+    scrollContainer,
   });
 
   const placeholder: Node = (
